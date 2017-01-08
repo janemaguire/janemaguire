@@ -1,15 +1,14 @@
-main {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a3/18/65/a31865449bb4db7c3dc70e7906097852.png");
   color: black;
-  padding: 20px;
-  height: 100vh;
-  overflow: scroll;
-  width: calc(100% - 360px);
-  float: left;
-  text-align: center;
 }
 
 .side {
-  width: 340px;
+  width: 400px;
   height: 100vh;
   overflow: scroll;
   float: left;
@@ -18,4 +17,13 @@ main {
   padding: 20px;
   position: static;
   display: inline-block;
+}
+
+.main {
+color: red;
+padding: 20px;
+height: 100vh;
+overflow: scroll;
+width: calc(100% - 400px);
+float: left;
 }
