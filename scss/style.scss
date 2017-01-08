@@ -1,0 +1,21 @@
+main {
+  color: black;
+  padding: 20px;
+  height: 100vh;
+  overflow: scroll;
+  width: calc(100% - 360px);
+  float: left;
+  text-align: center;
+}
+
+.side {
+  width: 340px;
+  height: 100vh;
+  overflow: scroll;
+  float: left;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: static;
+  display: inline-block;
+}
