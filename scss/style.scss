@@ -3,12 +3,18 @@
 }
 
 body {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a3/18/65/a31865449bb4db7c3dc70e7906097852.png");
+  // background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a3/18/65/a31865449bb4db7c3dc70e7906097852.png");
   // background-image: url("http://babasouk.ca/wp-content/uploads/2014/12/wrapping-paper-dots-11x17.jpg");
+  background-image: url("https://www.xmple.com/wallpaper/black-white-lines-streaks-stripes-1920x1080-c2-ffffff-000000-l2-42-59-a-45-f-1.svg");
   background-size: cover;
   color: black;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 28px;
 }
 
 .side {
@@ -16,23 +22,31 @@ body {
   height: 100vh;
   overflow: scroll;
   float: left;
-  background-color: black;
-  color: white;
+  color: black;
   padding: 20px;
   position: static, relative;
   display: inline-block;
-  text-align: right;
+  text-align: left;
   align-items: flex-end;
 }
 
 .content {
+  height: 90%;
   position: absolute;
-  bottom: 20px;
+  background-color: black;
+  color: white;
+  top: 20px;
+  left: 20px;
   right: calc(100% - 380px);
+  border: 5px white solid;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 3px;
 }
 
 .main {
-color: red;
+color: black;
 padding: 20px;
 height: 100vh;
 overflow: scroll;
@@ -46,16 +60,42 @@ float: left;
   border: none;
   background-color: white;
   font-family: 'Lato', sans-serif;
+  border-radius: 3px;
+}
+
+.projects {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  border: 5px black solid;
+  box-shadow: 10px 10px 5px #888888;
+  margin: 10px 10px 30px 10px;
+  border-radius: 3px;
 }
 
 .box {
-  height: 320px;
-  width: 300px;
-  padding: 10px 10px 20px 10px;
-  border: 3px black solid;
+  height: 330px;
+  padding: 10px;
+  border: 5px black solid;
   background: white;
   box-shadow: 10px 10px 5px #888888;
-  transform: rotate(7deg);
-  text-align: center;
-  font-family: 'La Belle Aurore', cursive;
+  text-align: left;
+  font-size: 20px;
+  margin: 10px 10px 30px 10px;
+  border-radius: 3px;
+}
+
+.box img {
+  float: left;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
 }
